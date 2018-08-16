@@ -1,0 +1,80 @@
+.email-list {
+    padding: 25px 30px;
+    background-color: #F5F5F5;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.email-list__header {
+    font-size: 36px;
+    margin: 10px 0 20px;
+    color: #999;
+}
+
+.email-list__wrap {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #999;
+}
+
+.email-list__input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 0 50px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.email-list__error {
+    display: none;
+    padding: 10px 0;
+    color: red;
+}
+
+.email-list__input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.email-list__box li {
+    position: relative;
+    text-align: left;
+    line-height: 50px;
+    border-bottom: 2px solid #f5f5f5;
+    color: #666;
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.email-list__box li::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 8px;
+    top: 8px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+}
+
+.email-list__box li button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 20px;
+    border: none;
+    color: red;
+    line-height: 50px;
+
+    cursor: pointer;
+}
+
+.email-list__item-count {
+    display: block;
+    padding: 10px 20px;
+    text-align: left;
+}
